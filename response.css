@@ -1,0 +1,33 @@
+body {
+    display: flex; 
+    justify-content: center;
+    height: 100vh; 
+    margin: 0;
+    background: url('background.jpg') no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+h1 {
+    margin: 350px 0;
+    text-align: center;
+    align-items: center;
+    display: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 50);
+}
+
+.gif-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.gif-row img {
+    width: 250px;
+    height: 175px;
+    margin: 5px;
+}

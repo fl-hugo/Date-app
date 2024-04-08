@@ -1,0 +1,51 @@
+body {
+    display: flex; 
+    justify-content: center;
+    min-height: 100vh; 
+    background: url('background.jpg') no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#yesButton {
+    padding: 15px 27px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 150px 0;
+    background: linear-gradient(to left, #fff12b, #ff6600);
+    color: rgb(0, 0, 0);
+}
+
+#noButton {
+    padding: 15px 25px;
+    position: absolute;
+    font-size: 16px;
+    left: 50%;
+    top: calc(50% + 40px);  
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, #fff12b, #ff6600);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+#noButton {
+    transition: left 0.5s, top 0.5s;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 50);
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 50);
+}
