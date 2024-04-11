@@ -14,28 +14,34 @@ body {
 
 #yesButton {
     padding: 15px 27px;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
     margin: 150px 0;
-    background: linear-gradient(to left, #fff12b, #ff6600);
+    background: linear-gradient(to left, #35bfc6, #97eaef);
     color: rgb(0, 0, 0);
+    border: 0.5px black solid;
+    border-radius: 5px;
 }
 
 #noButton {
     padding: 15px 25px;
     position: absolute;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     left: 50%;
     top: calc(50% + 40px);  
-    transform: translate(-50%, -50%);
-    background: linear-gradient(to left, #fff12b, #ff6600);
+    transform: translate(-50%, 100%);
+    background: linear-gradient(to left, #35bfc6, #97eaef);
     color: rgb(0, 0, 0);
     cursor: pointer;
+    transition: left 0.5s, top 0.5s;
+    border: 0.5px black solid;
+    border-radius: 5px;
 }
 
-
-#noButton {
-    transition: left 0.5s, top 0.5s;
+#yesButton:hover {
+    filter: brightness(85%);
 }
 
 h1 {
