@@ -1,24 +1,35 @@
 body {
+    text-align: center;
     display: flex; 
     justify-content: center;
+    align-items: center;
     height: 100vh; 
     margin: 0;
     background: url('background.jpg') no-repeat;
     background-size: cover; 
     background-position: center;
+    overflow: hidden;
 }
 
 h1 {
-    margin: 350px 0;
-    text-align: center;
-    align-items: center;
-    display: center;
+    margin-bottom: 20px;
     color: white;
     font-size: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 50);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.gif-row {
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.gif-row1, .gif-row2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,8 +37,15 @@ h1 {
     margin-bottom: 20px;
 }
 
-.gif-row img {
+.gif-row1 img {
     width: 250px;
     height: 175px;
-    margin: 5px;
+    margin: 10px;
+}
+
+.gif-row2 img {
+    width: 250px;
+    height: 175px;
+    margin-top: 205px;
+    margin-bottom: 205px;
 }

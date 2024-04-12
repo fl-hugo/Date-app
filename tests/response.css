@@ -1,0 +1,111 @@
+body {
+    height: 100vh; 
+    margin: 0;
+    background: url('../background.jpg') no-repeat;
+    background-size: cover; 
+    background-position: center;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 300px;
+    height: 150px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: 300px;
+    margin-left: 570px;
+}
+
+.wrapper h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 0px;
+}
+
+.wrapper a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 15px;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+.gif-container {
+    position: absolute;
+}
+
+.gif-container   {
+    width: 250px;
+    height: 175px;
+}
+
+#gif1 {
+    top: 30px;
+    left: 1275px;
+}
+
+#gif2 {
+    top: 30px;
+    left: 10px;
+}
+
+#gif3 {
+    top: 30px;
+    left: 450px;
+}
+
+#gif4 {
+    top: 30px;
+    left: 850px;
+}
+
+#gif5 {
+    top: 220px;
+    left: 10px;
+}
+
+#gif6 {
+    top: 220px;
+    left: 1275px;
+}
+
+#gif7 {
+    top: 410px;
+    left: 10px;
+}
+
+#gif8 {
+    top: 410px;
+    left: 1275px;
+}
+
+#gif9 {
+    top: 600px;
+    left: 10px;
+}
+
+#gif10 {
+    top: 600px;
+    left: 450px;
+}
+
+#gif11 {
+    top: 600px;
+    left: 850px;
+}
+
+#gif12 {
+    top: 600px;
+    left: 1275px;
+}
